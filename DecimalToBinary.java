@@ -1,12 +1,8 @@
 package cosc1336;
 
 /**
- 
-Andrew Hoffman
 COSC 1336
-Instructor: Dr. Doerschuk
 Programming Assignment 4
-Due: 20210317
 
 Write a program that prompts the user to enter a decimal number 
 between 0 and 15 and displays its corresponding binary value.
@@ -15,7 +11,7 @@ between 0 and 15 and displays its corresponding binary value.
 
 import java.util.Scanner;
 
-public class DecimalToBinaryAndrewHoffman{
+public class DecimalToBinary{
 	
 	public static void main(String[] args) {
 		
