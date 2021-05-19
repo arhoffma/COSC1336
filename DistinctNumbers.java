@@ -19,7 +19,7 @@ input, the array contains the distinct numbers.
 
 import java.util.Scanner;
 
-public class DistinctNumbersAndrewHoffman {
+public class DistinctNumbers {
 
 	/** Main Method */
 	public static void main(String[] args) {
