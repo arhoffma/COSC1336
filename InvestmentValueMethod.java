@@ -2,11 +2,8 @@ package cosc1336;
 
 /******************************************
 
-Andrew Hoffman
 COSC 1336
-Instructor: Dr. Doerschuk
 Programming Assignment 6
-Due: 20210331
 
 Write a method that computes future investment 
 value at a given interest rate for a specified 
@@ -30,7 +27,7 @@ displays future value for the years from 1 to 20.
 
 import java.util.Scanner;
 
-public class InvestmentValueMethodAndrewHoffman {
+public class InvestmentValueMethod {
 
 	/** Main Method */
 	public static void main(String[] args) {
@@ -67,7 +64,5 @@ public class InvestmentValueMethodAndrewHoffman {
 	public static double futureInvestmentValue(
 		double investmentAmount, double monthlyInterestRate, int years) {
 		return investmentAmount * Math.pow(1 + monthlyInterestRate, years * 12);
-
-	}
-	
+	}	
 }
