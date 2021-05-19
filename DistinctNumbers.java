@@ -2,11 +2,8 @@ package cosc1336;
 
 /******************************************
 
-Andrew Hoffman
 COSC 1336
-Instructor: Dr. Doerschuk
 Programming Assignment 7
-Due: 20210407
 
 Write a program that reads in 10 numbers and 
 displays the number of distinct numbers and 
