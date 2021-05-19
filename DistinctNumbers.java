@@ -67,7 +67,5 @@ public class DistinctNumbers {
 				return false;
 		}
 		return true;
-	
 	}
-	
 }
