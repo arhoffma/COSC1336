@@ -1,21 +1,19 @@
 package cosc1336;
 
 /**
-Andrew Hoffman
 COSC 1336
-Instructor: Dr. Doerschuk
 Programming Assignment 2
-Due: 20210224
-This program will compute and print the future value of an investment based on user input of initial investment, 
-length of investment, and expected annual interest rate.
-**/
 
+Compute and print the future value of an investment based 
+on user input of initial investment, length of investment, 
+and expected annual interest rate.
+**/
 
 // Import packages
 import java.util.Scanner;
 import java.lang.Math;
 
-public class InvestmentValueAndrewHoffman {
+public class InvestmentValue {
 
 	public static void main(String[] args) {
 		
@@ -30,21 +28,17 @@ public class InvestmentValueAndrewHoffman {
 		
 		double monthlyInterestRate = input.nextDouble(); // Declare variable monthlyInterestRate
 		
-		// Prompts for number of years
+		// Prompt user for number of years
 		System.out.print("Enter number of years as an integer, for example 5: "); 
 		
 		double numberOfYears = input.nextDouble(); // Declare variable numberOfYears
 		
 		// Compute total based on principal investment, interest rate, and years invested, rounded to 1/100
-		double futureInvestmentAmount = Math.round((investmentAmount * Math.pow((1 + (monthlyInterestRate / 12.0 / 100.0)),(numberOfYears * 12.0))) * 100.0) / 100.0; 
+		double futureInvestmentAmount = Math.round((investmentAmount * 
+			Math.pow((1 + (monthlyInterestRate / 12.0 / 100.0)),(numberOfYears * 12.0))) * 100.0) / 100.0; 
 		
 		System.out.print("Future value is $" + futureInvestmentAmount); // Prints resulting principal plus return
 				
-		input.close();
-		
+		input.close();	
 	}
-	
 }
-
-
-
