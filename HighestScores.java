@@ -1,11 +1,9 @@
 package cosc1336;
 
 /**
-Andrew Hoffman
+
 COSC 1336
-Instructor: Dr. Doerschuk
 Programming Assignment 5
-Due:  20210324
 
 Write a program that prompts the user to enter the 
 number of students and each student’s name and score 
@@ -14,11 +12,12 @@ score and the student with the second highest score.
 Use the next() method in the Scanner class to read a 
 name, rather than using the nextLine() method.  
 Assume that the number of students is at least 2
+
 **/
 
 import java.util.Scanner;
 
-public class HighestScoresAndrewHoffman {
+public class HighestScores {
 
 	public static void main(String[] args) {
 		
@@ -29,7 +28,7 @@ public class HighestScoresAndrewHoffman {
 		System.out.print("Enter the number of students: ");
 		int numberOfStudents = input.nextInt();
 
-		double score, 					// Holds student's score		
+		double score, 				// Holds student's score		
 			highest = 0, 			// Highest score 
 			secondHighest = 0;		// Second highest score
 		String name = "", 			// Holds student's name
