@@ -1,5 +1,14 @@
 package summer2021;
 
+/*
+
+Write a program to compute personal income tax. Your program should prompt the user 
+to enter the filing status and taxable income and print their taxable income. 
+
+Enter 0 for single filers, 1 for married filing jointly or qualified widow(er), 
+2 for married filing separately, or 3 for head of household.
+
+*/
 import java.util.Scanner;
 
 public class computeTax {
